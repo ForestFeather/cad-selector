@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>CAD Device Assignment Generator</title>
+        <script src="name_generator.js"></script>
+        <script src="word_sets.js"></script>
+        <script src="cad_generator.js"></script>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <!--<div id="selector"><p>Please enter your seed value: <input text="seed" /></p></div>-->
+        <div><p> Generate your CAD: <button onclick="generateCAD()">Generate</button></p></div>
+        <div id="values">
+            <table id="cad-table">
+                <tr><th colspan=2 class="table-section">General Information</th></td>
+                <tr><th>CAD Name: </th><td id="cad_name"></td></tr>
+                <tr><th>CAD Type: </th><td id="cad_type"></td></tr>
+                <tr><th>Rank: </th><td id="cad_rank"></td></tr>
+                <tr><th>Vysetrium Color: </th><td id="cad_vysetrium"></td></tr>
+                <tr><th>Steel Color 1: </th><td id="cad_steel1"></td></tr>
+                <tr><th>Steel Color 2: </th><td id="cad_steel2"></td></tr>
+                <tr><th colspan=2 class="table-section">User Specifications</th></tr>
+                <tr><th>Strength: </th><td id="cad_strength"></td></tr>
+                <tr><th>Endurance: </th><td id="cad_endurance"></td></tr>
+                <tr><th>Speed: </th><td id="cad_speed"></td></tr>
+                <tr><th>Cognition: </th><td id="cad_cognition"></td></tr>
+                <tr><th colspan=2 class="table-section">CAD Specifications</th></tr>
+                <tr><th>Offense: </th><td id="cad_offense"></td></tr>
+                <tr><th>Defense: </th><td id="cad_defense"></td></tr> 
+                <tr><th>Growth: </th><td id="cad_growth"></td></tr>
+            </table>
+        </div>
+    </body>
+</html>

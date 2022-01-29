@@ -7,9 +7,14 @@ Much thanks to Bryce O'Connor and Luke Chmilenko for the absolute wonderful book
 ## Planned Improvements
 Several improvements are planned and/or in the works, including:
 - Seeding the generator to get the same results each time
-- Results sharing:  Copy results into a friendly format for sharing with others
-- Setting some specs:  Ability to set a generator level or other parameters
-- ???
+- Ability to copy results into a friendly format for sharing with others
+- Ability to set a generator CAD level or other parameters
+- Add different name generation sources (language and culture based) or type your own
+- Visual CAD display with changing band colors
+- Test score results from written and physical exam
+- MIND notes
+- Ability generator
+- More?
 
 ## License
 This is licensed under GNU GPL v3.  If you use it, please remember to attribute!

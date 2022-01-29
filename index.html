@@ -1,13 +1,16 @@
 <html>
     <head>
         <title>CAD Device Assignment Generator</title>
-        <script src="name_generator.js"></script>
-        <script src="word_sets.js"></script>
-        <script src="cad_generator.js"></script>
-        <link rel="stylesheet" href="main.css" />
+        <script src="js/name_generator.js"></script>
+        <script src="js/word_sets.js"></script>
+        <script src="js/cad_generator.js"></script>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/barebones.css" />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
         <!--<div id="selector"><p>Please enter your seed value: <input text="seed" /></p></div>-->
+        <div class="grid-container halves">
         <div><p> Generate your CAD: <button onclick="generateCAD()">Generate</button></p></div>
         <div id="values">
             <table id="cad-table">

@@ -1,2 +1,15 @@
 # cad-selector
-A randomized CAD assignment generator for fans of the Warformed series, in particular Iron Prince.
+A randomized CAD assignment generator for fans of the Warformed series, in particular Iron Prince.  To use, simply click the 'Generate' button on the display page at the [github.io](https://forestfeather.github.io/cad-selector/) site.
+
+## Inspiration
+Much thanks to Bryce O'Connor and Luke Chmilenko for the absolute wonderful book Warformed:  The Iron Prince.  It's been a nonstop audio and written companion for me, and a source of many thoughts of creative endeavors.
+
+## Planned Improvements
+Several improvements are planned and/or in the works, including:
+- Seeding the generator to get the same results each time
+- Results sharing:  Copy results into a friendly format for sharing with others
+- Setting some specs:  Ability to set a generator level or other parameters
+- ???
+
+## License
+This is licensed under GNU GPL v3.  If you use it, please remember to attribute!

@@ -1,6 +1,5 @@
 body {
     background-color: ivory;
-    margin: 10px;
 }
 
 .table-section {
@@ -24,10 +23,26 @@ td {
     padding: 2px 5px;
 }
 
-.information {
-    margin-left: auto;
-    margin-right: auto;
+#information {
     width: 90%;
+    margin: 0 auto;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 7rem;
+    background-color: darkslategray;
+    color: ivory;
+    text-align: center;
+    display: block;
+}
+
+#about {
+    padding-top: 8rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #cad-table {
@@ -36,4 +51,15 @@ td {
     margin-right: auto;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: darkslategray;
+    color: ivory;
+    text-align: center;
+    display: block;
 }
